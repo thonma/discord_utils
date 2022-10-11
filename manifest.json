@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Send with Ctrl+Enter in Discord",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://discord.com/*"
+      ],
+      "js": [
+        "script.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
